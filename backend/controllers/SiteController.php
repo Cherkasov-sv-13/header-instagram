@@ -2,6 +2,8 @@
 
 namespace backend\controllers;
 
+use common\models\data\Account;
+use common\models\data\Server;
 use common\models\LoginForm;
 use Yii;
 use yii\filters\VerbFilter;
@@ -34,12 +36,6 @@ class SiteController extends Controller
                     ],
                 ],
             ],
-            'verbs' => [
-                'class' => VerbFilter::className(),
-                'actions' => [
-                    'logout' => ['post'],
-                ],
-            ],
         ];
     }
 
@@ -62,7 +58,40 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        $accountAllStats['allCount'] = Account::find()
+            ->where([
+                'is_deleted' => 0,
+            ])->count();
+
+        $accountAllStats['GoodCount'] = Account::find()
+            ->where([
+                'is_deleted' => 0,
+                'type' => Account::TYPE_WITHOUT_CAPCHA,
+            ])->count();
+
+        $accountAllStats['GoodCapchaCount'] = Account::find()
+            ->where([
+                'is_deleted' => 0,
+                'type' => Account::TYPE_WITH_CAPCHA,
+            ])->count();
+
+        $serverAllStats['allCount'] = Server::find()->count();
+        $serverAllStats['GoodCount'] = Server::find()
+            ->where(
+                ['error' => null]
+            )->count();
+        $serverAllStats['ErrorCount'] = Server::find()
+            ->where(
+                ['not', ['error' => null]]
+            )->count();
+
+        $servers = Server::find()->all();
+
+        return $this->render('index', [
+            'accountAllStats' => $accountAllStats,
+            'serverAllStats' => $serverAllStats,
+            'servers' => $servers,
+        ]);
     }
 
     /**
@@ -76,7 +105,7 @@ class SiteController extends Controller
             return $this->goHome();
         }
 
-        $this->layout = 'blank';
+        $this->layout = 'main-local';
 
         $model = new LoginForm();
         if ($model->load(Yii::$app->request->post()) && $model->login()) {

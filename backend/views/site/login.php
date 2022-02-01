@@ -1,31 +1,46 @@
 <?php
 
+use yii\helpers\Html;
+use yii\bootstrap\ActiveForm;
+
 /* @var $this yii\web\View */
-/* @var $form yii\bootstrap4\ActiveForm */
+/* @var $form yii\bootstrap\ActiveForm */
+/* @var $model \admin\models\form\LoginForm */
 
-/* @var $model \common\models\LoginForm */
-
-use yii\bootstrap4\ActiveForm;
-use yii\bootstrap4\Html;
-
-$this->title = 'Login';
+$this->title = 'Войти';
 ?>
-<div class="site-login">
-    <div class="mt-5 offset-lg-3 col-lg-6">
-        <h1><?= Html::encode($this->title) ?></h1>
 
-        <p>Please fill out the following fields to login:</p>
+<div class="login-box">
+    <div class="login-logo">
+        <b><?= Yii::$app->params['appName'] ?></b>
+    </div>
+    <div class="login-box-body">
+        <p class="login-box-msg">Введите логин и пароль для входа</p>
 
-        <?php $form = ActiveForm::begin(['id' => 'login-form']); ?>
+        <?php $form = ActiveForm::begin(['id' => 'login-form', 'enableClientValidation' => false]); ?>
 
-        <?= $form->field($model, 'username')->textInput(['autofocus' => true]) ?>
+        <?= $form
+            ->field($model, 'username')
+            ->label(false)
+            ->textInput(['placeholder' => $model->getAttributeLabel('username')]) ?>
 
-        <?= $form->field($model, 'password')->passwordInput() ?>
+        <?= $form
+            ->field($model, 'password')
+            ->label(false)
+            ->passwordInput(['placeholder' => $model->getAttributeLabel('password')]) ?>
 
-        <?= $form->field($model, 'rememberMe')->checkbox() ?>
-
-        <div class="form-group">
-            <?= Html::submitButton('Login', ['class' => 'btn btn-primary btn-block', 'name' => 'login-button']) ?>
+        <div class="row">
+            <div class="col-xs-8">
+                <?= $form->field($model,
+                    'rememberMe')->checkbox(['placeholder' => $model->getAttributeLabel('rememberMe')]) ?>
+            </div>
+            <div class="col-xs-4">
+                <?= Html::submitButton('Войти', [
+                    'class' => 'btn btn-block btn-flat',
+                    'name' => 'login-button',
+                    'style' => 'background-color:#19a347; color: white',
+                ]) ?>
+            </div>
         </div>
 
         <?php ActiveForm::end(); ?>

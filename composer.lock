@@ -4,8 +4,121 @@
     "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
     "This file is @generated automatically"
   ],
-  "content-hash": "d22b902b148b28298601ec014616fdf3",
+  "content-hash": "91fb4bcd06763b5c24da384173720a4c",
   "packages": [
+    {
+      "name": "aki/yii2-bot-telegram",
+      "version": "3.1.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/akbarjoudi/yii2-bot-telegram.git",
+        "reference": "f01de1b9f368396e70e1db291cba5229d391427f"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/akbarjoudi/yii2-bot-telegram/zipball/f01de1b9f368396e70e1db291cba5229d391427f",
+        "reference": "f01de1b9f368396e70e1db291cba5229d391427f",
+        "shasum": ""
+      },
+      "require": {
+        "guzzlehttp/guzzle": "*",
+        "yiisoft/yii2": "*"
+      },
+      "type": "yii2-extension",
+      "autoload": {
+        "psr-4": {
+          "aki\\telegram\\": ""
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "LGPL-3.0+"
+      ],
+      "authors": [
+        {
+          "name": "akbarjoudi",
+          "email": "akbar.joody@gmail.ocm"
+        }
+      ],
+      "description": "bot telegram",
+      "keywords": [
+        "extension",
+        "yii2"
+      ],
+      "support": {
+        "issues": "https://github.com/akbarjoudi/yii2-bot-telegram/issues",
+        "source": "https://github.com/akbarjoudi/yii2-bot-telegram/tree/3.1.0"
+      },
+      "time": "2021-10-27T07:07:05+00:00"
+    },
+    {
+      "name": "almasaeed2010/adminlte",
+      "version": "v2.4.18",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ColorlibHQ/AdminLTE.git",
+        "reference": "e7ffa67a4649dc08d2018708a38604a6c0a02ab6"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/ColorlibHQ/AdminLTE/zipball/e7ffa67a4649dc08d2018708a38604a6c0a02ab6",
+        "reference": "e7ffa67a4649dc08d2018708a38604a6c0a02ab6",
+        "shasum": ""
+      },
+      "require": {
+        "bower-asset/jquery": ">=1.9.0 <4.0.0"
+      },
+      "type": "template",
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Abdullah Almsaeed",
+          "email": "abdullah@almsaeedstudio.com"
+        }
+      ],
+      "description": "AdminLTE - admin control panel and dashboard that's based on Bootstrap 3",
+      "homepage": "https://adminlte.io/",
+      "keywords": [
+        "JS",
+        "admin",
+        "back-end",
+        "css",
+        "less",
+        "responsive",
+        "template",
+        "theme",
+        "web"
+      ],
+      "support": {
+        "issues": "https://github.com/almasaeed2010/AdminLTE/issues",
+        "source": "https://github.com/ColorlibHQ/AdminLTE/tree/v2.4.18"
+      },
+      "time": "2019-08-29T08:20:20+00:00"
+    },
+    {
+      "name": "bower-asset/bootstrap",
+      "version": "v3.4.1",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/twbs/bootstrap.git",
+        "reference": "68b0d231a13201eb14acd3dc84e51543d16e5f7e"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/twbs/bootstrap/zipball/68b0d231a13201eb14acd3dc84e51543d16e5f7e",
+        "reference": "68b0d231a13201eb14acd3dc84e51543d16e5f7e"
+      },
+      "require": {
+        "bower-asset/jquery": ">=1.9.1,<4.0"
+      },
+      "type": "bower-asset",
+      "license": [
+        "MIT"
+      ]
+    },
     {
       "name": "bower-asset/inputmask",
       "version": "3.3.11",
@@ -144,6 +257,118 @@
         "source": "https://github.com/cebe/markdown"
       },
       "time": "2018-03-26T11:24:36+00:00"
+    },
+    {
+      "name": "cebe/yii2-gravatar",
+      "version": "1.1",
+      "target-dir": "cebe/gravatar",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/cebe/yii2-gravatar.git",
+        "reference": "c9c01bd14c9bdee9e5ae1ef1aad23f80c182c057"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/cebe/yii2-gravatar/zipball/c9c01bd14c9bdee9e5ae1ef1aad23f80c182c057",
+        "reference": "c9c01bd14c9bdee9e5ae1ef1aad23f80c182c057",
+        "shasum": ""
+      },
+      "require": {
+        "yiisoft/yii2": "*"
+      },
+      "type": "yii2-extension",
+      "autoload": {
+        "psr-0": {
+          "cebe\\gravatar\\": ""
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Carsten Brandt",
+          "email": "mail@cebe.cc",
+          "homepage": "http://cebe.cc/",
+          "role": "Core framework development"
+        }
+      ],
+      "description": "Gravatar Widget for Yii 2",
+      "keywords": [
+        "gravatar",
+        "yii"
+      ],
+      "support": {
+        "irc": "irc://irc.freenode.net/yii",
+        "issues": "https://github.com/cebe/yii2-gravatar/issues",
+        "source": "https://github.com/cebe/yii2-gravatar"
+      },
+      "time": "2013-12-10T17:49:58+00:00"
+    },
+    {
+      "name": "dmstr/yii2-adminlte-asset",
+      "version": "2.6.2",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/dmstr/yii2-adminlte-asset.git",
+        "reference": "c96336e1960ebc6c1e72487a7c6ca1a1589519fe"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/dmstr/yii2-adminlte-asset/zipball/c96336e1960ebc6c1e72487a7c6ca1a1589519fe",
+        "reference": "c96336e1960ebc6c1e72487a7c6ca1a1589519fe",
+        "shasum": ""
+      },
+      "require": {
+        "almasaeed2010/adminlte": "^2.4.0",
+        "cebe/yii2-gravatar": "1.*",
+        "rmrevin/yii2-fontawesome": "~2.9",
+        "yiisoft/yii2": "2.*",
+        "yiisoft/yii2-bootstrap": "~2.0.0"
+      },
+      "type": "yii2-extension",
+      "extra": {
+        "branch-alias": {
+          "dev-master": "2.0.x-dev"
+        }
+      },
+      "autoload": {
+        "psr-4": {
+          "dmstr\\": ""
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "BSD-3-Clause"
+      ],
+      "authors": [
+        {
+          "name": "Tobias Munk",
+          "email": "tobias@diemeisterei.de"
+        },
+        {
+          "name": "Evgeniy Tkachenko",
+          "email": "et.coder@gmail.com"
+        }
+      ],
+      "description": "AdminLTE backend theme asset bundle for Yii 2.0 Framework",
+      "keywords": [
+        "AdminLTE",
+        "admin",
+        "asset",
+        "backend",
+        "css",
+        "extension",
+        "less",
+        "theme",
+        "yii2"
+      ],
+      "support": {
+        "issues": "https://github.com/dmstr/yii2-adminlte-asset/issues",
+        "source": "https://github.com/dmstr/yii2-adminlte-asset/tree/master"
+      },
+      "time": "2018-07-24T14:47:13+00:00"
     },
     {
       "name": "doctrine/lexer",
@@ -341,6 +566,381 @@
       "time": "2021-12-25T01:21:49+00:00"
     },
     {
+      "name": "fortawesome/font-awesome",
+      "version": "v4.7.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/FortAwesome/Font-Awesome.git",
+        "reference": "a8386aae19e200ddb0f6845b5feeee5eb7013687"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/a8386aae19e200ddb0f6845b5feeee5eb7013687",
+        "reference": "a8386aae19e200ddb0f6845b5feeee5eb7013687",
+        "shasum": ""
+      },
+      "require-dev": {
+        "jekyll": "1.0.2",
+        "lessc": "1.4.2"
+      },
+      "type": "library",
+      "extra": {
+        "branch-alias": {
+          "dev-master": "4.6.x-dev"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "OFL-1.1",
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Dave Gandy",
+          "email": "dave@fontawesome.io",
+          "homepage": "http://twitter.com/davegandy",
+          "role": "Developer"
+        }
+      ],
+      "description": "The iconic font and CSS framework",
+      "homepage": "http://fontawesome.io/",
+      "keywords": [
+        "FontAwesome",
+        "awesome",
+        "bootstrap",
+        "font",
+        "icon"
+      ],
+      "support": {
+        "issues": "https://github.com/FortAwesome/Font-Awesome/issues",
+        "source": "https://github.com/FortAwesome/Font-Awesome/tree/v4.7.0"
+      },
+      "time": "2016-10-24T15:52:54+00:00"
+    },
+    {
+      "name": "guzzlehttp/guzzle",
+      "version": "7.4.1",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/guzzle/guzzle.git",
+        "reference": "ee0a041b1760e6a53d2a39c8c34115adc2af2c79"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/guzzle/guzzle/zipball/ee0a041b1760e6a53d2a39c8c34115adc2af2c79",
+        "reference": "ee0a041b1760e6a53d2a39c8c34115adc2af2c79",
+        "shasum": ""
+      },
+      "require": {
+        "ext-json": "*",
+        "guzzlehttp/promises": "^1.5",
+        "guzzlehttp/psr7": "^1.8.3 || ^2.1",
+        "php": "^7.2.5 || ^8.0",
+        "psr/http-client": "^1.0",
+        "symfony/deprecation-contracts": "^2.2 || ^3.0"
+      },
+      "provide": {
+        "psr/http-client-implementation": "1.0"
+      },
+      "require-dev": {
+        "bamarni/composer-bin-plugin": "^1.4.1",
+        "ext-curl": "*",
+        "php-http/client-integration-tests": "^3.0",
+        "phpunit/phpunit": "^8.5.5 || ^9.3.5",
+        "psr/log": "^1.1 || ^2.0 || ^3.0"
+      },
+      "suggest": {
+        "ext-curl": "Required for CURL handler support",
+        "ext-intl": "Required for Internationalized Domain Name (IDN) support",
+        "psr/log": "Required for using the Log middleware"
+      },
+      "type": "library",
+      "extra": {
+        "branch-alias": {
+          "dev-master": "7.4-dev"
+        }
+      },
+      "autoload": {
+        "psr-4": {
+          "GuzzleHttp\\": "src/"
+        },
+        "files": [
+          "src/functions_include.php"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Graham Campbell",
+          "email": "hello@gjcampbell.co.uk",
+          "homepage": "https://github.com/GrahamCampbell"
+        },
+        {
+          "name": "Michael Dowling",
+          "email": "mtdowling@gmail.com",
+          "homepage": "https://github.com/mtdowling"
+        },
+        {
+          "name": "Jeremy Lindblom",
+          "email": "jeremeamia@gmail.com",
+          "homepage": "https://github.com/jeremeamia"
+        },
+        {
+          "name": "George Mponos",
+          "email": "gmponos@gmail.com",
+          "homepage": "https://github.com/gmponos"
+        },
+        {
+          "name": "Tobias Nyholm",
+          "email": "tobias.nyholm@gmail.com",
+          "homepage": "https://github.com/Nyholm"
+        },
+        {
+          "name": "Márk Sági-Kazár",
+          "email": "mark.sagikazar@gmail.com",
+          "homepage": "https://github.com/sagikazarmark"
+        },
+        {
+          "name": "Tobias Schultze",
+          "email": "webmaster@tubo-world.de",
+          "homepage": "https://github.com/Tobion"
+        }
+      ],
+      "description": "Guzzle is a PHP HTTP client library",
+      "keywords": [
+        "client",
+        "curl",
+        "framework",
+        "http",
+        "http client",
+        "psr-18",
+        "psr-7",
+        "rest",
+        "web service"
+      ],
+      "support": {
+        "issues": "https://github.com/guzzle/guzzle/issues",
+        "source": "https://github.com/guzzle/guzzle/tree/7.4.1"
+      },
+      "funding": [
+        {
+          "url": "https://github.com/GrahamCampbell",
+          "type": "github"
+        },
+        {
+          "url": "https://github.com/Nyholm",
+          "type": "github"
+        },
+        {
+          "url": "https://tidelift.com/funding/github/packagist/guzzlehttp/guzzle",
+          "type": "tidelift"
+        }
+      ],
+      "time": "2021-12-06T18:43:05+00:00"
+    },
+    {
+      "name": "guzzlehttp/promises",
+      "version": "1.5.1",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/guzzle/promises.git",
+        "reference": "fe752aedc9fd8fcca3fe7ad05d419d32998a06da"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/guzzle/promises/zipball/fe752aedc9fd8fcca3fe7ad05d419d32998a06da",
+        "reference": "fe752aedc9fd8fcca3fe7ad05d419d32998a06da",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=5.5"
+      },
+      "require-dev": {
+        "symfony/phpunit-bridge": "^4.4 || ^5.1"
+      },
+      "type": "library",
+      "extra": {
+        "branch-alias": {
+          "dev-master": "1.5-dev"
+        }
+      },
+      "autoload": {
+        "psr-4": {
+          "GuzzleHttp\\Promise\\": "src/"
+        },
+        "files": [
+          "src/functions_include.php"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Graham Campbell",
+          "email": "hello@gjcampbell.co.uk",
+          "homepage": "https://github.com/GrahamCampbell"
+        },
+        {
+          "name": "Michael Dowling",
+          "email": "mtdowling@gmail.com",
+          "homepage": "https://github.com/mtdowling"
+        },
+        {
+          "name": "Tobias Nyholm",
+          "email": "tobias.nyholm@gmail.com",
+          "homepage": "https://github.com/Nyholm"
+        },
+        {
+          "name": "Tobias Schultze",
+          "email": "webmaster@tubo-world.de",
+          "homepage": "https://github.com/Tobion"
+        }
+      ],
+      "description": "Guzzle promises library",
+      "keywords": [
+        "promise"
+      ],
+      "support": {
+        "issues": "https://github.com/guzzle/promises/issues",
+        "source": "https://github.com/guzzle/promises/tree/1.5.1"
+      },
+      "funding": [
+        {
+          "url": "https://github.com/GrahamCampbell",
+          "type": "github"
+        },
+        {
+          "url": "https://github.com/Nyholm",
+          "type": "github"
+        },
+        {
+          "url": "https://tidelift.com/funding/github/packagist/guzzlehttp/promises",
+          "type": "tidelift"
+        }
+      ],
+      "time": "2021-10-22T20:56:57+00:00"
+    },
+    {
+      "name": "guzzlehttp/psr7",
+      "version": "2.1.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/guzzle/psr7.git",
+        "reference": "089edd38f5b8abba6cb01567c2a8aaa47cec4c72"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/guzzle/psr7/zipball/089edd38f5b8abba6cb01567c2a8aaa47cec4c72",
+        "reference": "089edd38f5b8abba6cb01567c2a8aaa47cec4c72",
+        "shasum": ""
+      },
+      "require": {
+        "php": "^7.2.5 || ^8.0",
+        "psr/http-factory": "^1.0",
+        "psr/http-message": "^1.0",
+        "ralouphie/getallheaders": "^3.0"
+      },
+      "provide": {
+        "psr/http-factory-implementation": "1.0",
+        "psr/http-message-implementation": "1.0"
+      },
+      "require-dev": {
+        "bamarni/composer-bin-plugin": "^1.4.1",
+        "http-interop/http-factory-tests": "^0.9",
+        "phpunit/phpunit": "^8.5.8 || ^9.3.10"
+      },
+      "suggest": {
+        "laminas/laminas-httphandlerrunner": "Emit PSR-7 responses"
+      },
+      "type": "library",
+      "extra": {
+        "branch-alias": {
+          "dev-master": "2.1-dev"
+        }
+      },
+      "autoload": {
+        "psr-4": {
+          "GuzzleHttp\\Psr7\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Graham Campbell",
+          "email": "hello@gjcampbell.co.uk",
+          "homepage": "https://github.com/GrahamCampbell"
+        },
+        {
+          "name": "Michael Dowling",
+          "email": "mtdowling@gmail.com",
+          "homepage": "https://github.com/mtdowling"
+        },
+        {
+          "name": "George Mponos",
+          "email": "gmponos@gmail.com",
+          "homepage": "https://github.com/gmponos"
+        },
+        {
+          "name": "Tobias Nyholm",
+          "email": "tobias.nyholm@gmail.com",
+          "homepage": "https://github.com/Nyholm"
+        },
+        {
+          "name": "Márk Sági-Kazár",
+          "email": "mark.sagikazar@gmail.com",
+          "homepage": "https://github.com/sagikazarmark"
+        },
+        {
+          "name": "Tobias Schultze",
+          "email": "webmaster@tubo-world.de",
+          "homepage": "https://github.com/Tobion"
+        },
+        {
+          "name": "Márk Sági-Kazár",
+          "email": "mark.sagikazar@gmail.com",
+          "homepage": "https://sagikazarmark.hu"
+        }
+      ],
+      "description": "PSR-7 message implementation that also provides common utility methods",
+      "keywords": [
+        "http",
+        "message",
+        "psr-7",
+        "request",
+        "response",
+        "stream",
+        "uri",
+        "url"
+      ],
+      "support": {
+        "issues": "https://github.com/guzzle/psr7/issues",
+        "source": "https://github.com/guzzle/psr7/tree/2.1.0"
+      },
+      "funding": [
+        {
+          "url": "https://github.com/GrahamCampbell",
+          "type": "github"
+        },
+        {
+          "url": "https://github.com/Nyholm",
+          "type": "github"
+        },
+        {
+          "url": "https://tidelift.com/funding/github/packagist/guzzlehttp/psr7",
+          "type": "tidelift"
+        }
+      ],
+      "time": "2021-10-06T17:43:30+00:00"
+    },
+    {
       "name": "npm-asset/bootstrap",
       "version": "4.6.1",
       "dist": {
@@ -401,6 +1001,266 @@
         "source": "https://github.com/paragonie/random_compat"
       },
       "time": "2020-10-15T08:29:30+00:00"
+    },
+    {
+      "name": "psr/http-client",
+      "version": "1.0.1",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/php-fig/http-client.git",
+        "reference": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/php-fig/http-client/zipball/2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
+        "reference": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
+        "shasum": ""
+      },
+      "require": {
+        "php": "^7.0 || ^8.0",
+        "psr/http-message": "^1.0"
+      },
+      "type": "library",
+      "extra": {
+        "branch-alias": {
+          "dev-master": "1.0.x-dev"
+        }
+      },
+      "autoload": {
+        "psr-4": {
+          "Psr\\Http\\Client\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "PHP-FIG",
+          "homepage": "http://www.php-fig.org/"
+        }
+      ],
+      "description": "Common interface for HTTP clients",
+      "homepage": "https://github.com/php-fig/http-client",
+      "keywords": [
+        "http",
+        "http-client",
+        "psr",
+        "psr-18"
+      ],
+      "support": {
+        "source": "https://github.com/php-fig/http-client/tree/master"
+      },
+      "time": "2020-06-29T06:28:15+00:00"
+    },
+    {
+      "name": "psr/http-factory",
+      "version": "1.0.1",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/php-fig/http-factory.git",
+        "reference": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/php-fig/http-factory/zipball/12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
+        "reference": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=7.0.0",
+        "psr/http-message": "^1.0"
+      },
+      "type": "library",
+      "extra": {
+        "branch-alias": {
+          "dev-master": "1.0.x-dev"
+        }
+      },
+      "autoload": {
+        "psr-4": {
+          "Psr\\Http\\Message\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "PHP-FIG",
+          "homepage": "http://www.php-fig.org/"
+        }
+      ],
+      "description": "Common interfaces for PSR-7 HTTP message factories",
+      "keywords": [
+        "factory",
+        "http",
+        "message",
+        "psr",
+        "psr-17",
+        "psr-7",
+        "request",
+        "response"
+      ],
+      "support": {
+        "source": "https://github.com/php-fig/http-factory/tree/master"
+      },
+      "time": "2019-04-30T12:38:16+00:00"
+    },
+    {
+      "name": "psr/http-message",
+      "version": "1.0.1",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/php-fig/http-message.git",
+        "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+        "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=5.3.0"
+      },
+      "type": "library",
+      "extra": {
+        "branch-alias": {
+          "dev-master": "1.0.x-dev"
+        }
+      },
+      "autoload": {
+        "psr-4": {
+          "Psr\\Http\\Message\\": "src/"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "PHP-FIG",
+          "homepage": "http://www.php-fig.org/"
+        }
+      ],
+      "description": "Common interface for HTTP messages",
+      "homepage": "https://github.com/php-fig/http-message",
+      "keywords": [
+        "http",
+        "http-message",
+        "psr",
+        "psr-7",
+        "request",
+        "response"
+      ],
+      "support": {
+        "source": "https://github.com/php-fig/http-message/tree/master"
+      },
+      "time": "2016-08-06T14:39:51+00:00"
+    },
+    {
+      "name": "ralouphie/getallheaders",
+      "version": "3.0.3",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/ralouphie/getallheaders.git",
+        "reference": "120b605dfeb996808c31b6477290a714d356e822"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/ralouphie/getallheaders/zipball/120b605dfeb996808c31b6477290a714d356e822",
+        "reference": "120b605dfeb996808c31b6477290a714d356e822",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=5.6"
+      },
+      "require-dev": {
+        "php-coveralls/php-coveralls": "^2.1",
+        "phpunit/phpunit": "^5 || ^6.5"
+      },
+      "type": "library",
+      "autoload": {
+        "files": [
+          "src/getallheaders.php"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Ralph Khattar",
+          "email": "ralph.khattar@gmail.com"
+        }
+      ],
+      "description": "A polyfill for getallheaders.",
+      "support": {
+        "issues": "https://github.com/ralouphie/getallheaders/issues",
+        "source": "https://github.com/ralouphie/getallheaders/tree/develop"
+      },
+      "time": "2019-03-08T08:55:37+00:00"
+    },
+    {
+      "name": "rmrevin/yii2-fontawesome",
+      "version": "2.17.1",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/rmrevin/yii2-fontawesome.git",
+        "reference": "65ce306da864f4d558348aeba040ed7876878090"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/rmrevin/yii2-fontawesome/zipball/65ce306da864f4d558348aeba040ed7876878090",
+        "reference": "65ce306da864f4d558348aeba040ed7876878090",
+        "shasum": ""
+      },
+      "require": {
+        "fortawesome/font-awesome": "~4.7",
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "2.0.*"
+      },
+      "type": "yii2-extension",
+      "extra": {
+        "asset-installer-paths": {
+          "npm-asset-library": "vendor/npm",
+          "bower-asset-library": "vendor/bower"
+        }
+      },
+      "autoload": {
+        "psr-4": {
+          "rmrevin\\yii\\fontawesome\\": ""
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Revin Roman",
+          "email": "roman@rmrevin.com",
+          "homepage": "https://rmrevin.com/"
+        }
+      ],
+      "description": "Asset Bundle for Yii2 with Font Awesome",
+      "keywords": [
+        "asset",
+        "awesome",
+        "bundle",
+        "font",
+        "yii"
+      ],
+      "support": {
+        "issues": "https://github.com/rmrevin/yii2-fontawesome/issues",
+        "source": "https://github.com/rmrevin/yii2-fontawesome"
+      },
+      "time": "2017-01-11T14:05:47+00:00"
     },
     {
       "name": "swiftmailer/swiftmailer",
@@ -477,6 +1337,73 @@
       ],
       "abandoned": "symfony/mailer",
       "time": "2021-10-18T15:26:12+00:00"
+    },
+    {
+      "name": "symfony/deprecation-contracts",
+      "version": "v2.5.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/symfony/deprecation-contracts.git",
+        "reference": "6f981ee24cf69ee7ce9736146d1c57c2780598a8"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/6f981ee24cf69ee7ce9736146d1c57c2780598a8",
+        "reference": "6f981ee24cf69ee7ce9736146d1c57c2780598a8",
+        "shasum": ""
+      },
+      "require": {
+        "php": ">=7.1"
+      },
+      "type": "library",
+      "extra": {
+        "branch-alias": {
+          "dev-main": "2.5-dev"
+        },
+        "thanks": {
+          "name": "symfony/contracts",
+          "url": "https://github.com/symfony/contracts"
+        }
+      },
+      "autoload": {
+        "files": [
+          "function.php"
+        ]
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "MIT"
+      ],
+      "authors": [
+        {
+          "name": "Nicolas Grekas",
+          "email": "p@tchwork.com"
+        },
+        {
+          "name": "Symfony Community",
+          "homepage": "https://symfony.com/contributors"
+        }
+      ],
+      "description": "A generic function and convention to trigger deprecation notices",
+      "homepage": "https://symfony.com",
+      "support": {
+        "source": "https://github.com/symfony/deprecation-contracts/tree/v2.5.0"
+      },
+      "funding": [
+        {
+          "url": "https://symfony.com/sponsor",
+          "type": "custom"
+        },
+        {
+          "url": "https://github.com/fabpot",
+          "type": "github"
+        },
+        {
+          "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+          "type": "tidelift"
+        }
+      ],
+      "time": "2021-07-12T14:48:14+00:00"
     },
     {
       "name": "symfony/polyfill-iconv",
@@ -892,6 +1819,66 @@
       "time": "2021-05-27T09:17:38+00:00"
     },
     {
+      "name": "yii2tech/ar-softdelete",
+      "version": "1.0.4",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yii2tech/ar-softdelete.git",
+        "reference": "498ed03f89ded835f0ca156ec50d432191c58769"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/yii2tech/ar-softdelete/zipball/498ed03f89ded835f0ca156ec50d432191c58769",
+        "reference": "498ed03f89ded835f0ca156ec50d432191c58769",
+        "shasum": ""
+      },
+      "require": {
+        "yiisoft/yii2": "~2.0.13"
+      },
+      "require-dev": {
+        "phpunit/phpunit": "4.8.27|^5.0|^6.0"
+      },
+      "type": "yii2-extension",
+      "extra": {
+        "branch-alias": {
+          "dev-master": "1.0.x-dev"
+        }
+      },
+      "autoload": {
+        "psr-4": {
+          "yii2tech\\ar\\softdelete\\": "src"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "BSD-3-Clause"
+      ],
+      "authors": [
+        {
+          "name": "Paul Klimov",
+          "email": "klimov.paul@gmail.com"
+        }
+      ],
+      "description": "Provides support for ActiveRecord soft delete in Yii2",
+      "keywords": [
+        "active",
+        "delete",
+        "integrity",
+        "record",
+        "smart",
+        "soft",
+        "yii2"
+      ],
+      "support": {
+        "forum": "http://www.yiiframework.com/forum/",
+        "issues": "https://github.com/yii2tech/ar-softdelete/issues",
+        "source": "https://github.com/yii2tech/ar-softdelete",
+        "wiki": "https://github.com/yii2tech/ar-softdelete/wiki"
+      },
+      "abandoned": true,
+      "time": "2019-07-30T11:05:57+00:00"
+    },
+    {
       "name": "yiisoft/yii2",
       "version": "2.0.44",
       "source": {
@@ -1012,6 +1999,100 @@
         }
       ],
       "time": "2021-12-30T07:50:56+00:00"
+    },
+    {
+      "name": "yiisoft/yii2-bootstrap",
+      "version": "2.0.11",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/yiisoft/yii2-bootstrap.git",
+        "reference": "83d144f4089adaa7064ad60dc4c1436daa2eb30e"
+      },
+      "dist": {
+        "type": "zip",
+        "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/83d144f4089adaa7064ad60dc4c1436daa2eb30e",
+        "reference": "83d144f4089adaa7064ad60dc4c1436daa2eb30e",
+        "shasum": ""
+      },
+      "require": {
+        "bower-asset/bootstrap": "3.4.* | 3.3.* | 3.2.* | 3.1.*",
+        "yiisoft/yii2": "~2.0.6"
+      },
+      "require-dev": {
+        "cweagans/composer-patches": "^1.7",
+        "phpunit/phpunit": "4.8.34"
+      },
+      "type": "yii2-extension",
+      "extra": {
+        "branch-alias": {
+          "dev-master": "2.0.x-dev"
+        },
+        "patches": {
+          "phpunit/phpunit-mock-objects": {
+            "Fix PHP 7 and 8 compatibility": "https://yiisoft.github.io/phpunit-patches/phpunit_mock_objects.patch"
+          },
+          "phpunit/phpunit": {
+            "Fix PHP 7 compatibility": "https://yiisoft.github.io/phpunit-patches/phpunit_php7.patch",
+            "Fix PHP 8 compatibility": "https://yiisoft.github.io/phpunit-patches/phpunit_php8.patch"
+          }
+        }
+      },
+      "autoload": {
+        "psr-4": {
+          "yii\\bootstrap\\": "src"
+        }
+      },
+      "notification-url": "https://packagist.org/downloads/",
+      "license": [
+        "BSD-3-Clause"
+      ],
+      "authors": [
+        {
+          "name": "Qiang Xue",
+          "email": "qiang.xue@gmail.com",
+          "homepage": "http://www.yiiframework.com/"
+        },
+        {
+          "name": "Alexander Makarov",
+          "email": "sam@rmcreative.ru",
+          "homepage": "http://rmcreative.ru/"
+        },
+        {
+          "name": "Antonio Ramirez",
+          "email": "amigo.cobos@gmail.com"
+        },
+        {
+          "name": "Paul Klimov",
+          "email": "klimov.paul@gmail.com"
+        }
+      ],
+      "description": "The Twitter Bootstrap extension for the Yii framework",
+      "keywords": [
+        "bootstrap",
+        "yii2"
+      ],
+      "support": {
+        "forum": "http://www.yiiframework.com/forum/",
+        "irc": "irc://irc.freenode.net/yii",
+        "issues": "https://github.com/yiisoft/yii2-bootstrap/issues",
+        "source": "https://github.com/yiisoft/yii2-bootstrap",
+        "wiki": "http://www.yiiframework.com/wiki/"
+      },
+      "funding": [
+        {
+          "url": "https://github.com/yiisoft",
+          "type": "github"
+        },
+        {
+          "url": "https://opencollective.com/yiisoft",
+          "type": "open_collective"
+        },
+        {
+          "url": "https://tidelift.com/funding/github/packagist/yiisoft/yii2-bootstrap",
+          "type": "tidelift"
+        }
+      ],
+      "time": "2021-08-09T20:54:06+00:00"
     },
     {
       "name": "yiisoft/yii2-bootstrap4",
@@ -1984,121 +3065,6 @@
         "source": "https://github.com/FakerPHP/Faker/tree/v1.18.0"
       },
       "time": "2022-01-23T17:56:23+00:00"
-    },
-    {
-      "name": "guzzlehttp/psr7",
-      "version": "2.1.0",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/guzzle/psr7.git",
-        "reference": "089edd38f5b8abba6cb01567c2a8aaa47cec4c72"
-      },
-      "dist": {
-        "type": "zip",
-        "url": "https://api.github.com/repos/guzzle/psr7/zipball/089edd38f5b8abba6cb01567c2a8aaa47cec4c72",
-        "reference": "089edd38f5b8abba6cb01567c2a8aaa47cec4c72",
-        "shasum": ""
-      },
-      "require": {
-        "php": "^7.2.5 || ^8.0",
-        "psr/http-factory": "^1.0",
-        "psr/http-message": "^1.0",
-        "ralouphie/getallheaders": "^3.0"
-      },
-      "provide": {
-        "psr/http-factory-implementation": "1.0",
-        "psr/http-message-implementation": "1.0"
-      },
-      "require-dev": {
-        "bamarni/composer-bin-plugin": "^1.4.1",
-        "http-interop/http-factory-tests": "^0.9",
-        "phpunit/phpunit": "^8.5.8 || ^9.3.10"
-      },
-      "suggest": {
-        "laminas/laminas-httphandlerrunner": "Emit PSR-7 responses"
-      },
-      "type": "library",
-      "extra": {
-        "branch-alias": {
-          "dev-master": "2.1-dev"
-        }
-      },
-      "autoload": {
-        "psr-4": {
-          "GuzzleHttp\\Psr7\\": "src/"
-        }
-      },
-      "notification-url": "https://packagist.org/downloads/",
-      "license": [
-        "MIT"
-      ],
-      "authors": [
-        {
-          "name": "Graham Campbell",
-          "email": "hello@gjcampbell.co.uk",
-          "homepage": "https://github.com/GrahamCampbell"
-        },
-        {
-          "name": "Michael Dowling",
-          "email": "mtdowling@gmail.com",
-          "homepage": "https://github.com/mtdowling"
-        },
-        {
-          "name": "George Mponos",
-          "email": "gmponos@gmail.com",
-          "homepage": "https://github.com/gmponos"
-        },
-        {
-          "name": "Tobias Nyholm",
-          "email": "tobias.nyholm@gmail.com",
-          "homepage": "https://github.com/Nyholm"
-        },
-        {
-          "name": "Márk Sági-Kazár",
-          "email": "mark.sagikazar@gmail.com",
-          "homepage": "https://github.com/sagikazarmark"
-        },
-        {
-          "name": "Tobias Schultze",
-          "email": "webmaster@tubo-world.de",
-          "homepage": "https://github.com/Tobion"
-        },
-        {
-          "name": "Márk Sági-Kazár",
-          "email": "mark.sagikazar@gmail.com",
-          "homepage": "https://sagikazarmark.hu"
-        }
-      ],
-      "description": "PSR-7 message implementation that also provides common utility methods",
-      "keywords": [
-        "http",
-        "message",
-        "psr-7",
-        "request",
-        "response",
-        "stream",
-        "uri",
-        "url"
-      ],
-      "support": {
-        "issues": "https://github.com/guzzle/psr7/issues",
-        "source": "https://github.com/guzzle/psr7/tree/2.1.0"
-      },
-      "funding": [
-        {
-          "url": "https://github.com/GrahamCampbell",
-          "type": "github"
-        },
-        {
-          "url": "https://github.com/Nyholm",
-          "type": "github"
-        },
-        {
-          "url": "https://tidelift.com/funding/github/packagist/guzzlehttp/psr7",
-          "type": "tidelift"
-        }
-      ],
-      "time": "2021-10-06T17:43:30+00:00"
     },
     {
       "name": "myclabs/deep-copy",
@@ -3097,158 +4063,6 @@
       "time": "2019-01-08T18:20:26+00:00"
     },
     {
-      "name": "psr/http-factory",
-      "version": "1.0.1",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/php-fig/http-factory.git",
-        "reference": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be"
-      },
-      "dist": {
-        "type": "zip",
-        "url": "https://api.github.com/repos/php-fig/http-factory/zipball/12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
-        "reference": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
-        "shasum": ""
-      },
-      "require": {
-        "php": ">=7.0.0",
-        "psr/http-message": "^1.0"
-      },
-      "type": "library",
-      "extra": {
-        "branch-alias": {
-          "dev-master": "1.0.x-dev"
-        }
-      },
-      "autoload": {
-        "psr-4": {
-          "Psr\\Http\\Message\\": "src/"
-        }
-      },
-      "notification-url": "https://packagist.org/downloads/",
-      "license": [
-        "MIT"
-      ],
-      "authors": [
-        {
-          "name": "PHP-FIG",
-          "homepage": "http://www.php-fig.org/"
-        }
-      ],
-      "description": "Common interfaces for PSR-7 HTTP message factories",
-      "keywords": [
-        "factory",
-        "http",
-        "message",
-        "psr",
-        "psr-17",
-        "psr-7",
-        "request",
-        "response"
-      ],
-      "support": {
-        "source": "https://github.com/php-fig/http-factory/tree/master"
-      },
-      "time": "2019-04-30T12:38:16+00:00"
-    },
-    {
-      "name": "psr/http-message",
-      "version": "1.0.1",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/php-fig/http-message.git",
-        "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
-      },
-      "dist": {
-        "type": "zip",
-        "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
-        "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
-        "shasum": ""
-      },
-      "require": {
-        "php": ">=5.3.0"
-      },
-      "type": "library",
-      "extra": {
-        "branch-alias": {
-          "dev-master": "1.0.x-dev"
-        }
-      },
-      "autoload": {
-        "psr-4": {
-          "Psr\\Http\\Message\\": "src/"
-        }
-      },
-      "notification-url": "https://packagist.org/downloads/",
-      "license": [
-        "MIT"
-      ],
-      "authors": [
-        {
-          "name": "PHP-FIG",
-          "homepage": "http://www.php-fig.org/"
-        }
-      ],
-      "description": "Common interface for HTTP messages",
-      "homepage": "https://github.com/php-fig/http-message",
-      "keywords": [
-        "http",
-        "http-message",
-        "psr",
-        "psr-7",
-        "request",
-        "response"
-      ],
-      "support": {
-        "source": "https://github.com/php-fig/http-message/tree/master"
-      },
-      "time": "2016-08-06T14:39:51+00:00"
-    },
-    {
-      "name": "ralouphie/getallheaders",
-      "version": "3.0.3",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/ralouphie/getallheaders.git",
-        "reference": "120b605dfeb996808c31b6477290a714d356e822"
-      },
-      "dist": {
-        "type": "zip",
-        "url": "https://api.github.com/repos/ralouphie/getallheaders/zipball/120b605dfeb996808c31b6477290a714d356e822",
-        "reference": "120b605dfeb996808c31b6477290a714d356e822",
-        "shasum": ""
-      },
-      "require": {
-        "php": ">=5.6"
-      },
-      "require-dev": {
-        "php-coveralls/php-coveralls": "^2.1",
-        "phpunit/phpunit": "^5 || ^6.5"
-      },
-      "type": "library",
-      "autoload": {
-        "files": [
-          "src/getallheaders.php"
-        ]
-      },
-      "notification-url": "https://packagist.org/downloads/",
-      "license": [
-        "MIT"
-      ],
-      "authors": [
-        {
-          "name": "Ralph Khattar",
-          "email": "ralph.khattar@gmail.com"
-        }
-      ],
-      "description": "A polyfill for getallheaders.",
-      "support": {
-        "issues": "https://github.com/ralouphie/getallheaders/issues",
-        "source": "https://github.com/ralouphie/getallheaders/tree/develop"
-      },
-      "time": "2019-03-08T08:55:37+00:00"
-    },
-    {
       "name": "sebastian/code-unit-reverse-lookup",
       "version": "1.0.2",
       "source": {
@@ -4201,73 +5015,6 @@
         }
       ],
       "time": "2022-01-02T09:53:40+00:00"
-    },
-    {
-      "name": "symfony/deprecation-contracts",
-      "version": "v2.5.0",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/symfony/deprecation-contracts.git",
-        "reference": "6f981ee24cf69ee7ce9736146d1c57c2780598a8"
-      },
-      "dist": {
-        "type": "zip",
-        "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/6f981ee24cf69ee7ce9736146d1c57c2780598a8",
-        "reference": "6f981ee24cf69ee7ce9736146d1c57c2780598a8",
-        "shasum": ""
-      },
-      "require": {
-        "php": ">=7.1"
-      },
-      "type": "library",
-      "extra": {
-        "branch-alias": {
-          "dev-main": "2.5-dev"
-        },
-        "thanks": {
-          "name": "symfony/contracts",
-          "url": "https://github.com/symfony/contracts"
-        }
-      },
-      "autoload": {
-        "files": [
-          "function.php"
-        ]
-      },
-      "notification-url": "https://packagist.org/downloads/",
-      "license": [
-        "MIT"
-      ],
-      "authors": [
-        {
-          "name": "Nicolas Grekas",
-          "email": "p@tchwork.com"
-        },
-        {
-          "name": "Symfony Community",
-          "homepage": "https://symfony.com/contributors"
-        }
-      ],
-      "description": "A generic function and convention to trigger deprecation notices",
-      "homepage": "https://symfony.com",
-      "support": {
-        "source": "https://github.com/symfony/deprecation-contracts/tree/v2.5.0"
-      },
-      "funding": [
-        {
-          "url": "https://symfony.com/sponsor",
-          "type": "custom"
-        },
-        {
-          "url": "https://github.com/fabpot",
-          "type": "github"
-        },
-        {
-          "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-          "type": "tidelift"
-        }
-      ],
-      "time": "2021-07-12T14:48:14+00:00"
     },
     {
       "name": "symfony/dom-crawler",
